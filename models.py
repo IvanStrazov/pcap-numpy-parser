@@ -73,7 +73,7 @@ class BinaryClassifier():
             y (1/0) - attack
         """
         
-        return self.detector.predict_proba(self.preprocess([X]))[0][1]
+        return self.detector.predict(self.preprocess([X]))[0]
 
 
     
