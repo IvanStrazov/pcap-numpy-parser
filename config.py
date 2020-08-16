@@ -24,6 +24,16 @@ display_settings = {
     "show_dimensions": False
 }
 
+columns = [
+    'duration', 'protocol_type', 'service', 'flag', 'src_bytes',
+    'dst_bytes', 'land', 'wrong_fragment', 'urgent',
+    'serror_rate', 'srv_serror_rate', 'rerror_rate', 
+    'dst_host_serror_rate',
+    'dst_host_srv_serror_rate', 
+    'dst_host_rerror_rate',
+    'dst_host_srv_rerror_rate'
+]
+
 
 
 protocol_type_dct = {5.0: 'tcp',
